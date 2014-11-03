@@ -29,4 +29,6 @@
 
 @property (strong, nonatomic) NSString *pattern;
 
+- (void)formatInput:(UITextField *)textField;
+
 @end
